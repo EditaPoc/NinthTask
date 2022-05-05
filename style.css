@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;600;700&family=Radio+Canada:wght@300;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("cafe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 70%;
+    padding: 15% 0 0 15%;
+}
+
+h1 {
+    font-size: 46px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+input {
+    background-color: #f47a24;
+    border: 1px solid #f47a24;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    width: 210px;
+    height: 55px;
+    margin-top: 20px;
+}
+
